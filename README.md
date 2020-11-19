@@ -4,7 +4,6 @@ An Education From Kottans
 - [x] 0 - <b>Git and GitHub</b> - [Done](#git-entry)
 - [x] 1 - <b>Linux, Command Line, HTTP Tools</b> - [Done](#linux)
 
-#
 
 ## <a name="git-entry">Git Recap</a>
 I actively use git for not a long time and course from Udacity helped me a lot to figure out the things which were not very clear to me. For example, I've had troubles with merging and resolving conflicts. Also it was not clear for me, how git can manage different branches and commits. 
@@ -32,8 +31,17 @@ The main new points that I learned from this course.
  - `chmod` for add or remove permissions for user or group to read, write file or execute.
  - `ps aux` for watching current processes in the system, this is very usefull when you need to terminate some program and use command `kill`, for which you need to know the ID of the prosess (`ps aux` allows to find it).  
  - also I learned how to make a pipe output.
- 
- 
+
+ From the articles about HTTP I've got:
+ - what is HTTP and URL.
+ - verbs (what exactly are GET, POST, PU, DELETE and OPTIONS, HEAD, TRACE).
+ - the status-codes.
+ - formats and information of requests and response messages.
+ - which kind of connections may be between servers and clients.
+ - importance of identification and authorization of users.
+ - cashing abd it's settings.
+
+
  
  
  
