@@ -3,6 +3,7 @@ An Education From Kottans
 
 - [x] 0 - <b>Git and GitHub</b> - [Done](#git-entry)
 - [x] 1 - <b>Linux, Command Line, HTTP Tools</b> - [Done](#linux)
+- [x] 2 - <b>Git for Team Collaboration</b> - [Done](#git-collaboration)
 
 
 ## <a name="git-entry">Git Recap</a>
@@ -17,7 +18,8 @@ The main new points that I learned from this course.
  - Command for working with branches `git branch` + commands to create, delete or switch the branch.
  - Command for merging and ways for resolving conflicts.
  - I didn't know that after reset the data is stored in 30 days.
- 
+
+
  ## <a name="linux">Linux CLI, and HTTP</a>
  I am not an active Linux user, but have a little experience with it. This course got me better understanding of Linux file system and commands.
  ![Screenshot linux](./task_linux_cli/ls_quiz1.png)
@@ -42,6 +44,14 @@ The main new points that I learned from this course.
  - cashing abd it's settings.
 
 
- 
- 
- 
+## <a name="git-collaboration">Git Collaboration</a>
+![Screenshot git-collaboration](./task_git_collaboration/git_collaboration_udacity.png)
+![Screenshot git-collaboration](./task_git_collaboration/git_course.png)
+
+ I've never worked with remote repos in collaboration, so with these courses I've finally understood:
+ - why do we need forks and how they work.
+ - `git pull` and `git push` commands.
+ - I've understood pull requests and how they work.
+ - for me command `git rebase` was new.
+
+
