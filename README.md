@@ -4,6 +4,7 @@ An Education From Kottans
 - [x] 0 - <b>Git and GitHub</b> - [Done](#git-entry)
 - [x] 1 - <b>Linux, Command Line, HTTP Tools</b> - [Done](#linux)
 - [x] 2 - <b>Git for Team Collaboration</b> - [Done](#git-collaboration)
+- [x] 3 - <b>Intro to HTML and CSS</b> - [Done](#html-css-intro)
 
 
 ## <a name="git-entry">Git Recap</a>
@@ -53,5 +54,22 @@ The main new points that I learned from this course.
  - `git pull` and `git push` commands.
  - I've understood pull requests and how they work.
  - for me command `git rebase` was new.
+
+
+## <a name="html-css-intro">Intro to HTML and CSS</a>
+![Screenshot html-css-intro](./task_html_css_intro/udacity_intro.png)
+![Screenshot html-css-intro](./task_html_css_intro/learn_html.png)
+![Screenshot html-css-intro](./task_html_css_intro/learn_css.png)
+
+We cannot make front-end web-development without a knowledge of HTML and CSS. At this time I have already a little experience
+in this area, but these courses gave me a little bit more insights.
+Thus, courses from *Udacity* and *Learn HTML* gave me more understanding of forms,
+I think, that the most useful for me was *Learn CSS* course. I have got more deep information about:
+- box-model.
+- flex-boxes.
+- positioning.
+Also I've never worked with *grids* and this course helped me to understand basics of grid layout.
+
+
 
 
