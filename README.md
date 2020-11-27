@@ -5,6 +5,7 @@ An Education From Kottans
 - [x] 1 - <b>Linux, Command Line, HTTP Tools</b> - [Done](#linux)
 - [x] 2 - <b>Git for Team Collaboration</b> - [Done](#git-collaboration)
 - [x] 3 - <b>Intro to HTML and CSS</b> - [Done](#html-css-intro)
+- [x] 4 - <b>Responsive Web Design</b> - [Done](#responsive-design)
 
 
 ## <a name="git-entry">Git Recap</a>
@@ -71,5 +72,18 @@ I think, that the most useful for me was *Learn CSS* course. I have got more dee
 Also I've never worked with *grids* and this course helped me to understand basics of grid layout.
 
 
+## <a name="responsive-design">Responsive Web Design</a>
+![Screenshot responsive-design](./task_responsive_web_design/udacity_resp_web.png)
+![Screenshot responsive-design](./task_responsive_web_design/froggy.png)
+
+I think that "Froggy" is wonderful game-task for the best understanding haw to create layout with a flex-box. With this game
+it is easy to see, how exactly each property of the flex-boxes and the flex-items work. "Grid Garden" is awesome for learning
+grids.
+"Responsive Web Design Fundamentals" from Udacity and extra-materials gave me better understanding of:
+- how to choose the break-point of device width.
+- what are responsive patterns and their differences.
+- responsive tables, what is `data-th` attribute and how to use it.
+- difference between physical pixels and DIP.
+- how it is possible to override an `!important` statement in CSS.
 
 
