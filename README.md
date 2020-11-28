@@ -6,6 +6,7 @@ An Education From Kottans
 - [x] 2 - <b>Git for Team Collaboration</b> - [Done](#git-collaboration)
 - [x] 3 - <b>Intro to HTML and CSS</b> - [Done](#html-css-intro)
 - [x] 4 - <b>Responsive Web Design</b> - [Done](#responsive-design)
+- [x] 5 - <b>HTML & CSS practice: Hooli-style Popup</b> - [Done](#html_css_practice)
 
 
 ## <a name="git-entry">Git Recap</a>
@@ -85,5 +86,9 @@ grids.
 - responsive tables, what is `data-th` attribute and how to use it.
 - difference between physical pixels and DIP.
 - how it is possible to override an `!important` statement in CSS.
+
+## <a name="html_css_practice">HTML & CSS practice: Hooli-style Popup</a>
+
+
 
 
