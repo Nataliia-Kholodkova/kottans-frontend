@@ -7,6 +7,7 @@ An Education From Kottans
 - [x] 3 - <b>Intro to HTML and CSS</b> - [Done](#html-css-intro)
 - [x] 4 - <b>Responsive Web Design</b> - [Done](#responsive-design)
 - [x] 5 - <b>HTML & CSS practice: Hooli-style Popup</b> - [Done](#html_css_practice)
+- [x] 6 - <b>JavaScript Basics</b> - [Done](#JS_basics)
 
 
 ## <a name="git-entry">Git Recap</a>
@@ -93,6 +94,33 @@ It was a interesting and challenging for me ) My main problem was how to put thi
 [DEMO](https://ua-girl.github.io/Popup-practice/)
 
 
+## <a name="JS_basics">JS Basics</a>
 
+    ![Screenshot js_basics](./task_js_basics/udacity_JS.png)
+
+    ![Screenshot js_basics](./task_js_basics/basic_JS.png)
+
+    ![Screenshot js_basics](./task_js_basics/basic_ES6.png)
+
+    ![Screenshot js_basics](./task_js_basics/functional_programming.png)
+
+    ![Screenshot js_basics](./task_js_basics/basic_data_structure.png)
+
+    ![Screenshot js_basics](./task_js_basics/basic_algo_scripting.png)
+
+    ![Screenshot js_basics](./task_js_basics/algo_scripting.png)
+
+Earlier I had started a self-learning JavaScript with the other resources. My experience was not easy: it was hard for me to understand some
+methods, for example, for me were hard to understand, how to use `Array.forEach()`, `Array.map()`, `Array.reduce()`, ets.
+Courses, which I've just finished now, helped me to figure out haw to use all these methods )) And I can say, that these part was challenging for me.
+For me next topics were very useful:
+
+- what is spread operator and how to use it (for example, it is very helpful in searching for max and min value of an array (`Math.max(...[array])`).
+- also I've understood why it is more preferable to use inside of the functions local variables, which allow not to change global variables (may
+cause a bugs and problems).
+- I've got more insights in difference between `let` and `var`. Earlier it was a little bit vague.
+
+FreeCodeCamp tasks were not very hard at first, but some assignments from **"Basic Algorithm Scripting"**, **"Basic algorithms"** and
+**"Algorithm Scripting Challenges"** were challenging and thus real exciting ))
 
 
