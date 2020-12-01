@@ -95,20 +95,13 @@ It was a interesting and challenging for me ) My main problem was how to put thi
 
 
 ## <a name="JS_basics">JS Basics</a>
-
-    ![Screenshot js_basics](./task_js_basics/udacity_JS.png)
-
-    ![Screenshot js_basics](./task_js_basics/basic_JS.png)
-
-    ![Screenshot js_basics](./task_js_basics/basic_ES6.png)
-
-    ![Screenshot js_basics](./task_js_basics/functional_programming.png)
-
-    ![Screenshot js_basics](./task_js_basics/basic_data_structure.png)
-
-    ![Screenshot js_basics](./task_js_basics/basic_algo_scripting.png)
-
-    ![Screenshot js_basics](./task_js_basics/algo_scripting.png)
+![Screenshot js_basics](./task_js_basics/udacity_JS.png)
+![Screenshot js_basics](./task_js_basics/basic_JS.png)
+![Screenshot js_basics](./task_js_basics/basic_ES6.png)
+![Screenshot js_basics](./task_js_basics/functional_programming.png)
+![Screenshot js_basics](./task_js_basics/basic_data_structure.png)
+![Screenshot js_basics](./task_js_basics/basic_algo_scripting.png)
+![Screenshot js_basics](./task_js_basics/algo_scripting.png)
 
 Earlier I had started a self-learning JavaScript with the other resources. My experience was not easy: it was hard for me to understand some
 methods, for example, for me were hard to understand, how to use `Array.forEach()`, `Array.map()`, `Array.reduce()`, ets.
