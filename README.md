@@ -8,6 +8,7 @@ An Education From Kottans
 - [x] 4 - <b>Responsive Web Design</b> - [Done](#responsive-design)
 - [x] 5 - <b>HTML & CSS practice: Hooli-style Popup</b> - [Done](#html_css_practice)
 - [x] 6 - <b>JavaScript Basics</b> - [Done](#JS_basics)
+- [x] 7 - <b>Document Object Model</b> - [Done](#DOM)
 
 
 ## <a name="git-entry">Git Recap</a>
@@ -117,3 +118,21 @@ FreeCodeCamp tasks were not very hard at first, but some assignments from **"Bas
 **"Algorithm Scripting Challenges"** were challenging and thus real exciting ))
 
 
+## <a name="DOM">Document Object Model</a>
+![Screenshot js_basics](./task_js_dom/udacity_dom.png)
+![Screenshot js_basics](./task_js_dom/algo_scripting.png)
+
+I've never earlier tried to manipulate content of the page with JS, so this part was very new for me. The **Udacity course** gave me a
+knowledge:
+- how browsers parse HTML pages and what is DOM;
+- how to create element on the page(`createElement()` method), add element to the page (`appendChild()` or `insertAdjacentHTML()`,
+which are differ from each other by the place, where element will be inserted: at the end of parent element or at the certain position).
+- also I've discovered, that `insertAdjacentHTML()` has 4 parameters of inserting: before a parent element or just after its opening tag
+ (`beforebegin` and `afterbegin`) and before a parent's element closing tag or just after it (`beforeend` and `afterend`). It is important, that this method inserts
+ a text, which later would be parsed as HTML.
+- the difference between `firstChild` and `firstElementChild` - I'll be very careful with choosing one of these methods to get an appropriate result.
+- two ways how to remove element from the DOM (with `<parent>.removeChild(<child>)` or just with simple `<element>.remove()`).
+- I think I'll use `<element>.style.cssText` to set more than one style property at the time to the element.
+- now I know, that if I have a container with few buttons (for example) and I need to add a same Event Listener to each button,
+it is enough to add a single Event Listener to the parent container. It is great, because you don't need to have a bunch of listeners on the page
+and in the same time you'll be abel to determine the element, in which the event was fired.

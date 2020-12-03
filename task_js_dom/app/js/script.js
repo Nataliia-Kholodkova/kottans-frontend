@@ -95,10 +95,28 @@ const catalogItemsList = [
     },
 ];
 
+const menu = document.querySelector('.catalog-list');
 const menuItems = document.querySelectorAll('.catalog-link');
 const card = document.querySelector('.card');
 
-menuItems.forEach(item => item.addEventListener('click', toggleCatalog));
+// menuItems.forEach(item => item.addEventListener('click', toggleCatalog));
+menu.addEventListener('click', toggleCatalog);
+menu.addEventListener('keyup', function (event) {
+    if (event.keyCode === 32) {
+        toggleCatalog(event);
+    }
+});
+
+// Animate appearance of the card
+function animate(item) {
+    let opacity = +item.style.opacity;
+    if (opacity < 1) {
+        opacity += 0.05;
+        item.style.opacity = opacity.toString();
+        setTimeout(animate, 50, item);
+    }
+}
+
 
 // Fill card
 function createPattern(item, node) {
@@ -108,10 +126,14 @@ function createPattern(item, node) {
     img.setAttribute('src', item.image.url);
     // Update data
     const caption = node.querySelector(`.${CARD_DESCRIPTION_CLASS_NAME}`);
-    caption.querySelector(`.${CARD_TITLE_CLASS_NAME}`).innerHTML = item.title;
-    caption.querySelector(`.${CARD_TEXT_CLASS_NAME}`).innerHTML = item.text;
+    caption.querySelector(`.${CARD_TITLE_CLASS_NAME}`).textContent = item.title;
+    caption.querySelector(`.${CARD_TEXT_CLASS_NAME}`).textContent = item.text;
     caption.querySelector(`.${CARD_LINK_CLASS_NAME}`).setAttribute('href', item.link);
+    const cardItem = card.querySelector('.card-item');
+    cardItem.style.opacity = 0;
+    animate(cardItem);
 }
+
 
 // Execute on click of menu item
 function toggleCatalog(event) {
@@ -129,6 +151,7 @@ function toggleCatalog(event) {
     // Update content
     createPattern(catalogItem, card);
 }
+
 
 // Create initial content
 function createContent() {
@@ -149,6 +172,8 @@ function createContent() {
     title.classList.add(CARD_TITLE_CLASS_NAME);
     text.classList.add(CARD_TEXT_CLASS_NAME);
     link.classList.add(CARD_LINK_CLASS_NAME);
+    link.textContent = 'Read more >>';
+    link.setAttribute('target', '_blank');
     // Create structure
     [title, text, link].forEach(item => figcaption.appendChild(item));
     [image, figcaption].forEach(item => figure.appendChild(item));
@@ -156,5 +181,6 @@ function createContent() {
     // Fill content
     createPattern(catalogItem, card);
 }
+
 
 window.addEventListener('load', createContent);
