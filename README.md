@@ -9,6 +9,7 @@ An Education From Kottans
 - [x] 5 - <b>HTML & CSS practice: Hooli-style Popup</b> - [Done](#html_css_practice)
 - [x] 6 - <b>JavaScript Basics</b> - [Done](#JS_basics)
 - [x] 7 - <b>Document Object Model</b> - [Done](#DOM)
+- [x] 8 - <b>Building a Tiny JS World</b> - [Done](#Pre-OOP)
 
 
 ## <a name="git-entry">Git Recap</a>
@@ -136,3 +137,10 @@ which are differ from each other by the place, where element will be inserted: a
 - now I know, that if I have a container with few buttons (for example) and I need to add a same Event Listener to each button,
 it is enough to add a single Event Listener to the parent container. It is great, because you don't need to have a bunch of listeners on the page
 and in the same time you'll be abel to determine the element, in which the event was fired.
+
+
+## <a name="DOM">Building a Tiny JS World</a>
+I've made this task quickly, so waiting for the review and the next one!
+
+
+
