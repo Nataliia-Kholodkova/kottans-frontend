@@ -139,7 +139,7 @@ it is enough to add a single Event Listener to the parent container. It is great
 and in the same time you'll be abel to determine the element, in which the event was fired.
 
 
-## <a name="DOM">Building a Tiny JS World</a>
+## <a name="Pre-OOP">Building a Tiny JS World</a>
 I've made this task quickly, so waiting for the review and the next one!
 
 
