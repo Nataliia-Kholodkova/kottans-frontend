@@ -11,6 +11,7 @@ An Education From Kottans
 - [x] 7 - <b>Document Object Model</b> - [Done](#DOM)
 - [x] 8 - <b>Building a Tiny JS World</b> - [Done](#Pre-OOP)
 - [x] 9 - <b>Object-Oriented JavaScript</b> - [Done](#OOP)
+- [x] 10 - <b>OOP Exercise</b> - [Done](#OOP-Ex)
 
 
 ## <a name="git-entry">Git Recap</a>
@@ -165,3 +166,6 @@ This part was a little bit confusing for me, but the practical part helped me to
 that I will read more about OOP in JS for deeper understanding it's concepts.
 
 
+## <a name="OOP">OOP Ex</a>
+
+It was interesting to rewrite own code )
