@@ -145,8 +145,9 @@ I've made this task quickly, so waiting for the review and the next one!
 
 
 ## <a name="OOP">Object-Oriented JavaScript</a>
+
 ![Screenshot js_oop](./task_js_oop/oop.png)
-![Screenshot js_oop](./task_js_oop/codeward.png)
+![Screenshot js_oop](./task_js_oop/codewars.png)
 
 I am familiar with OOP approach, but in the Python. From the **Udacity course** I've discovered, that JS is rather functional language,
 than object-oriented. What have I learned:
