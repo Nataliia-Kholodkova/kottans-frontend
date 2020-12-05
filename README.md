@@ -10,6 +10,7 @@ An Education From Kottans
 - [x] 6 - <b>JavaScript Basics</b> - [Done](#JS_basics)
 - [x] 7 - <b>Document Object Model</b> - [Done](#DOM)
 - [x] 8 - <b>Building a Tiny JS World</b> - [Done](#Pre-OOP)
+- [x] 9 - <b>Object-Oriented JavaScript</b> - [Done](#OOP)
 
 
 ## <a name="git-entry">Git Recap</a>
@@ -120,8 +121,8 @@ FreeCodeCamp tasks were not very hard at first, but some assignments from **"Bas
 
 
 ## <a name="DOM">Document Object Model</a>
-![Screenshot js_basics](./task_js_dom/udacity_dom.png)
-![Screenshot js_basics](./task_js_dom/algo_scripting.png)
+![Screenshot DOM](./task_js_dom/udacity_dom.png)
+![Screenshot DOM](./task_js_dom/algo_scripting.png)
 
 I've never earlier tried to manipulate content of the page with JS, so this part was very new for me. The **Udacity course** gave me a
 knowledge:
@@ -142,5 +143,24 @@ and in the same time you'll be abel to determine the element, in which the event
 ## <a name="Pre-OOP">Building a Tiny JS World</a>
 I've made this task quickly, so waiting for the review and the next one!
 
+
+## <a name="OOP">Object-Oriented JavaScript</a>
+![Screenshot js_oop](./task_js_oop/oop.png)
+![Screenshot js_oop](./task_js_oop/codeward.png)
+
+I am familiar with OOP approach, but in the Python. From the **Udacity course** I've discovered, that JS is rather functional language,
+than object-oriented. What have I learned:
+- all objects in JS in the core are functions. It is possible to add methods, which would be shared among all instances of
+each particular object, by using prototype.
+- keyword `this` allows to bind methods and attribute of an object (class) to each of its instances. Thus, every instance will get it's own "this".
+- to create an instance of some object and get access via the instance to all methods and attributes of an object, we can use `new` keyword.
+This will bind `this` to the instance which was just created (not the global): created instance will get a link to the <Object>.prototype.
+- if we use `new` when new instance of an object created, we call also a `constructor` method, which creates an object, which is assigned to
+our instance.
+- `<Object>.prototype.<method> = function()` adds a method `method` to the <Object>, thus each instance of the `<Object>`, created
+with `new` keyword, will get access to this method.
+
+This part was a little bit confusing for me, but the practical part helped me to get a better understanding of Objects in JS. I know,
+that I will read more about OOP in JS for deeper understanding it's concepts.
 
 
