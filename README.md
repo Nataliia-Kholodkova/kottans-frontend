@@ -12,6 +12,7 @@ An Education From Kottans
 - [x] 8 - <b>Building a Tiny JS World</b> - [Done](#Pre-OOP)
 - [x] 9 - <b>Object-Oriented JavaScript</b> - [Done](#OOP)
 - [x] 10 - <b>OOP Exercise</b> - [Done](#OOP-Ex)
+- [x] 11 - <b>Offline Web Applications</b> - [Done](#offline_web_app)
 
 
 ## <a name="git-entry">Git Recap</a>
@@ -169,3 +170,21 @@ that I will read more about OOP in JS for deeper understanding it's concepts.
 ## <a name="OOP">OOP Ex</a>
 
 It was interesting to rewrite own code )
+
+
+## <a name="offline_web_app">Offline Web Applications</a>
+![Screenshot offline_web_app](./task_offline_web_app/udacity.png)
+
+This topic was brand new for me. Well, I've heard about off-line users' experience, but never got deep in this topic. Now I know, that there are
+some methods, which can improve users' experience with apps and sites in low network conditions or even in its absence.
+
+- service worker (SW) is a "layer" between server and user. This is JavaScript code, which works separately and doesn't has an access to the pages's dom.
+- SW allows user to load site or an app from cache (so, with a low connection user will get not an empty page, but some cashed content).
+- SW has its life cycle:
+    - installation: here need to add an EventListener `install`, and add file for storing a cache and list of files, which should be cashed,
+    - activation,
+    - fetching requests: here user either will get requested data from a cache, or (if the cache does not contain requested resource)
+    request will be sent on server, then response will be cached and sent back to user.
+- to add SW on the pag one needs to register it on the page when window loads with Promise.
+
+It is very brief recap, and I know, that I will pass again this course and articles step by step for better understanding.
