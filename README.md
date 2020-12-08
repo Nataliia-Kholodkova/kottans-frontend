@@ -13,6 +13,7 @@ An Education From Kottans
 - [x] 9 - <b>Object-Oriented JavaScript</b> - [Done](#OOP)
 - [x] 10 - <b>OOP Exercise</b> - [Done](#OOP-Ex)
 - [x] 11 - <b>Offline Web Applications</b> - [Done](#offline_web_app)
+- [x] 13 - <b>Memory Pair Game</b> - [Done](#memory_pair_game)
 
 
 ## <a name="git-entry">Git Recap</a>
@@ -188,3 +189,8 @@ some methods, which can improve users' experience with apps and sites in low net
 - to add SW on the pag one needs to register it on the page when window loads with Promise.
 
 It is very brief recap, and I know, that I will pass again this course and articles step by step for better understanding.
+
+
+## <a name="memory_pair_game">Memory Pair Game</a>
+
+It was very interesting project. I've got a new experience and a new game for my son )))))))
