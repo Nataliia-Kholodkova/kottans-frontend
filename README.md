@@ -14,6 +14,7 @@ An Education From Kottans
 - [x] 10 - <b>OOP Exercise</b> - [Done](#OOP-Ex)
 - [x] 11 - <b>Offline Web Applications</b> - [Done](#offline_web_app)
 - [x] 13 - <b>Memory Pair Game</b> - [Done](#memory_pair_game)
+- [x] 13 - <b>Website Performance Optimization</b> - [Done](#web_perf_opt)
 
 
 ## <a name="git-entry">Git Recap</a>
@@ -194,3 +195,39 @@ It is very brief recap, and I know, that I will pass again this course and artic
 ## <a name="memory_pair_game">Memory Pair Game</a>
 
 It was very interesting project. I've got a new experience and a new game for my son )))))))
+
+
+## <a name="web_perf_opt">Website Performance Optimization</a>
+
+![Screenshot web_perf_opt](./task_website_performance/web_perf_opt.png)
+![Screenshot web_perf_opt](./task_website_performance/browser_opt.png)
+![Screenshot web_perf_opt](./task_website_performance/resp-images.png)
+
+Optimization in the web is very, some times a critically important task. No one likes waiting or some not smooth
+performance of the app or site. Of course, not whole things in this task is depended on front-end, but we can do a lot
+to improve users' experience with our sites.
+The most important notes I've made:
+- first at all to get a page, browser makes GET request to the server and gets back an HTML. In this stage browser
+starts to build a DOM and Render tree. In process it gets CSS and JS files, images, etc, downloads them,
+makes recalculations, gets and runs scripts, than makes Render tree, layout and painting.
+- to improve speed of load the page, we can:
+    - compress HTML, CSS and JS,
+    - preload fonts, run JS asynchronously, divide CSS into different files, each for it's own media query, compress
+    images, use SVG etc.
+    - it is better not to change styles in JS - only in CSS. ALso CSS animations will work faster.
+    - in CSS it is better not to use complex selectors (like nth:child).
+    - in JS it is important to avoid Forced Synchronous Layout, which may slow loading significantly. When browser,
+    while parsing HTML, gets script, it blocks parser and starts to execute script. That's why it is important to say
+    browser, how to load and execute scripts or pass them in the document in appropriate order. So, the scripts, which
+    are in the `header` tag, will executed first and those, which are in the end of a body tag - last. Also there are
+    attributes, which help browser to understand, how to execute scripts: `defer` and `async`. First one will tell
+    browser to execute script after the DOM will be built, the last - not to stop parsing and building DOM.
+    - it is better to make as few as possible reflows and repains by not changing styles via JS (only with CSS classes),
+     not often get access in script to properties, which need to be recalculated, to use DocumentFragments or clone and
+     replace nodes, etc.
+    - in CSS, if some block will change its properties, such as width, height, scale, transform, it is better to use
+    property `will-change`, so browser will be ready for these changes).
+Also the big attention require images. It is necessary to compress them and reduce their amount on the page. For
+example, use svg, icon fonts or symbol characters instead of images. Also we can tell browser, which image to use in
+case of different devise width. Thus, in CSS `background-image` property we can use `image-set`, in HTML tag `picture`
+with `source` or `srcset` in `img`.
