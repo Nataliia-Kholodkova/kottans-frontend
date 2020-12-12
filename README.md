@@ -14,7 +14,8 @@ An Education From Kottans
 - [x] 10 - <b>OOP Exercise</b> - [Done](#OOP-Ex)
 - [x] 11 - <b>Offline Web Applications</b> - [Done](#offline_web_app)
 - [x] 13 - <b>Memory Pair Game</b> - [Done](#memory_pair_game)
-- [x] 13 - <b>Website Performance Optimization</b> - [Done](#web_perf_opt)
+- [x] 14 - <b>Website Performance Optimization</b> - [Done](#web_perf_opt)
+- [x] 15 - <b>Friends App</b> - [Done]
 
 
 ## <a name="git-entry">Git Recap</a>
