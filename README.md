@@ -15,7 +15,7 @@ An Education From Kottans
 - [x] 11 - <b>Offline Web Applications</b> - [Done](#offline_web_app)
 - [x] 13 - <b>Memory Pair Game</b> - [Done](#memory_pair_game)
 - [x] 14 - <b>Website Performance Optimization</b> - [Done](#web_perf_opt)
-- [x] 15 - <b>Friends App</b> - [Done]
+- [x] 15 - <b>Friends App</b> - [Done](#friends-app)
 
 
 ## <a name="git-entry">Git Recap</a>
@@ -99,7 +99,9 @@ grids.
 ## <a name="html_css_practice">HTML & CSS practice: Hooli-style Popup</a>
 It was a interesting and challenging for me ) My main problem was how to put this popup menu (I'm used to use list for navigation).
 
-[DEMO](https://ua-girl.github.io/Popup-practice/)
+My Practice:
+- [DEMO](https://ua-girl.github.io/Popup-practice/)
+- [SOURCE](https://github.com/UA-girl/Popup-practice/)
 
 
 ## <a name="JS_basics">JS Basics</a>
@@ -144,6 +146,10 @@ which are differ from each other by the place, where element will be inserted: a
 it is enough to add a single Event Listener to the parent container. It is great, because you don't need to have a bunch of listeners on the page
 and in the same time you'll be abel to determine the element, in which the event was fired.
 
+My Practice:
+- [DEMO](https://ua-girl.github.io/DOM-task/)
+- [SOURCE](https://github.com/UA-girl/DOM-task/)
+
 
 ## <a name="Pre-OOP">Building a Tiny JS World</a>
 I've made this task quickly, so waiting for the review and the next one!
@@ -168,6 +174,10 @@ with `new` keyword, will get access to this method.
 
 This part was a little bit confusing for me, but the practical part helped me to get a better understanding of Objects in JS. I know,
 that I will read more about OOP in JS for deeper understanding it's concepts.
+
+My Practice:
+- [DEMO](https://ua-girl.github.io/Frogger-game/)
+- [SOURCE](https://github.com/UA-girl/Frogger-game/)
 
 
 ## <a name="OOP">OOP Ex</a>
@@ -196,6 +206,10 @@ It is very brief recap, and I know, that I will pass again this course and artic
 ## <a name="memory_pair_game">Memory Pair Game</a>
 
 It was very interesting project. I've got a new experience and a new game for my son )))))))
+
+My Practice:
+- [DEMO](https://ua-girl.github.io/MemoryGame/)
+- [SOURCE](https://github.com/UA-girl/MemoryGame/)
 
 
 ## <a name="web_perf_opt">Website Performance Optimization</a>
@@ -232,3 +246,10 @@ Also the big attention require images. It is necessary to compress them and redu
 example, use svg, icon fonts or symbol characters instead of images. Also we can tell browser, which image to use in
 case of different devise width. Thus, in CSS `background-image` property we can use `image-set`, in HTML tag `picture`
 with `source` or `srcset` in `img`.
+
+
+## <a name="friends-app">Friends App</a>
+Very cool and challenging task! I've a little bit closer now to understanding Promises in JS, which are not easy for me.
+ My Practice:
+ - [DEMO](https://ua-girl.github.io/FriendsApp/)
+ - [SOURCE](https://github.com/UA-girl/FriendsApp/)
